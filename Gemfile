@@ -24,6 +24,17 @@ group :production do
   gem 'pg', '0.15.1'
   gem 'rails_12factor', '0.0.2'
 end
+
+#gem 'rubyzip', :require => 'zip/zip'
+
+group :development do
+  gem 'rspec-rails', '2.0.1'
+end
+group :test do
+  gem 'rspec', '2.0.1'
+  gem 'webrat', '0.7.1'
+end
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
 
